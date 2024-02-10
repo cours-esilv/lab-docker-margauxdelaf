@@ -1,0 +1,15 @@
+docker images ls
+docker rmi 95ea120a96e6
+
+--image used by container--
+
+docker stop 60259e603c82
+docker rm 60259e603c82
+
+--container removed--
+
+docker rmi 95ea120a96e6
+
+--can't delete image because it is tagged in repositories--
+
+docker rmi -f 95ea120a96e6

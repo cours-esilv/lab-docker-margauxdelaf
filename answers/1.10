@@ -1,0 +1,4 @@
+docker ps #to get the name of the container
+docker exec -it detached_container_td3 /bin/bash
+
+#In the container, the OS that is being used is Linux
