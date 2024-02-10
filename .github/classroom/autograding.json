@@ -23,7 +23,7 @@
     {
       "name": "1.5",
       "setup": "",
-      "run": "grep -q -i -E 'docker.*run' answers/1.5 && grep -q -i -E '\\-p=?\\s?[[:digit:]]+:[[:digit:]]+' answers/1.5 && grep -q -i -E '\\-e=?\\s?environment=?\\s?[[:alnum:]]+' answers/1.5",
+      "run": "grep -q -i -E 'docker.*run' answers/1.5 && grep -q -i -E '\\-p=?\\s?[[:digit:]]+:[[:digit:]]+' answers/1.5 && grep -q -i -E '\\-e=?\\s?current_environment=?\\s?[[:alnum:]]+' answers/1.5",
       "input": "",
       "output": "",
       "comparison": "included",
